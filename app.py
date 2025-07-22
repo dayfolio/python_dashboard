@@ -12,6 +12,8 @@ import dash_bootstrap_components as dbc
 # Initialize app
 app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
 app.title = "Mini Dashboard"
+server = app.server
+
 
 # --- Utility Function ---
 def get_live_data():
@@ -1261,9 +1263,6 @@ def render_page_content(pathname):
     elif pathname == "/about":
         return about_layout
     return home_layout
-
-
-server = app.server
 
 
 # --- Run ---
