@@ -1262,6 +1262,10 @@ def render_page_content(pathname):
         return about_layout
     return home_layout
 
+
+server = app.server
+
+
 # --- Run ---
 if __name__ == '__main__':
     app.run(debug=True)
