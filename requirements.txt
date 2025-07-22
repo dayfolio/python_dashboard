@@ -1,7 +1,7 @@
 yfinance 
 pandas 
 numpy
-plotly.graph_objs 
+plotly
 dash
 dash_bootstrap_components
 gunicorn
