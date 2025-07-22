@@ -3,4 +3,5 @@ pandas
 numpy
 plotly.graph_objs 
 dash
-sash_bootstrap_components
+dash_bootstrap_components
+gunicorn
