@@ -16,7 +16,8 @@ Real-time data is pulled dynamically from Yahoo Finance via the yfinance API. Th
 
 ---
 
-Portfolio Weighting
+Portfolio Weighting:
+
 A simple portfolio allocation is used:
 
 JPM: 40%
@@ -29,7 +30,9 @@ These weights are applied across all metrics and visualizations.
 ---
 
 
-Comprehensive Metrics
+Comprehensive Metrics:
+
+
 A total of 12 core metrics are calculated and displayed:
 
 Price & Returns: Adjusted closing price, daily return, correlation, and cumulative return (both for individual tickers and the portfolio)
@@ -40,7 +43,8 @@ Risk Metrics: Drawdowns, rolling 30-day volatility, rolling 30-day Sharpe ratio,
 
 
 
-Interactive KPIs & Graphs
+Interactive KPIs & Graphs:
+
 
 
 Homepage: Live price KPIs and vertical card layout for daily & cumulative returns
@@ -55,7 +59,9 @@ About Page: Context on dashboard features, stock selection, and metric definitio
 ---
 
 
-Responsive & User-Friendly Layout
+Responsive & User-Friendly Layout:
+
+
 Built with Bootstrap components for a clean design.
 Sidebar navigation with pages like Home, Performance Metrics, Rolling Metrics, and About.
 KPI cards remain fixed while graphs are scrollable.
